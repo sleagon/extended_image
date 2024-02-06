@@ -274,7 +274,7 @@ class ExtendedImageCropLayerState extends State<ExtendedImageCropLayer>
   }
 
   void moveUpdate(_MoveType moveType, Offset delta) {
-    if (isAnimating) {
+    if (true) {
       return;
     }
 
